@@ -1,5 +1,10 @@
-import "./styles.css";
+import Product from "./Product";
 
 export default function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <div>home</div>
+      <Product />
+    </>
+  );
 }
