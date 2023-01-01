@@ -1,9 +1,10 @@
+import Navbar from "./Navbar";
 import Product from "./Product";
 
 export default function App() {
   return (
     <>
-      <div>home</div>
+      <Navbar />
       <Product />
     </>
   );

@@ -1,69 +1,74 @@
 import React from "react";
+import Room from "./Room";
 
 export default function Product() {
-  let items = [
+  let iteams = [
     {
       title: "queen panel bed",
       type: "Household",
       price: 2500,
       rating: 4,
-      image: { fields: { file: { url: "./images/product-1.jpeg" } } }
+      image: "./images/product-1.jpeg"
     },
 
     {
-      title: "king panel bed",
+      name: "king panel bed",
       type: "Household",
       price: 3000,
       rating: 3,
-      image: { fields: { file: { url: "./images/product-2.jpeg" } } }
+      image: "./images/product-2.jpeg"
     },
     {
-      title: "single panel bed",
+      name: "single panel bed",
       type: "Household",
       price: 2200,
       rating: 5,
-      image: { fields: { file: { url: "./images/product-3.jpeg" } } }
+      image: "./images/product-3.jpeg"
     },
     {
-      title: "twin panel bed",
+      name: "twin panel bed",
       type: "Household",
       price: 2800,
       rating: 4,
-      image: { fields: { file: { url: "./images/product-4.jpeg" } } }
+      image: "./images/product-4.jpeg"
     },
     {
-      title: "fridge",
+      name: "fridge",
       type: "Kitchen",
       price: 1880,
       rating: 2,
-      image: { fields: { file: { url: "./images/product-5.jpeg" } } }
+      image: "./images/product-5.jpeg"
     },
     {
-      title: "dresser",
+      name: "dresser",
       type: "furniture",
       price: 3200,
       rating: 3,
-      image: { fields: { file: { url: "./images/product-6.jpeg" } } }
+      image: "./images/product-6.jpeg"
     },
     {
-      title: "Coombes",
+      name: "Coombes",
       type: "Lounge",
       price: 4500,
       rating: 5,
-      image: { fields: { file: { url: "./images/product-7.jpeg" } } }
+      image: "./images/product-7.jpeg"
     },
     {
-      title: "Keeve Set",
+      name: "Keeve Set",
       type: "Tables & Chairs",
       price: 1300,
       rating: 4,
-      image: { fields: { file: { url: "./images/product-8.jpeg" } } }
+      image: "./images/product-8.jpeg"
     }
   ];
 
   return (
     <>
-      <div></div>
+      {/* iteams.map((el)=>{ */}
+      {/* //   return <Room names={el.name} type={el.type} price={el.price} rating={el.rating}image={el.image}/> */}
+      {/* // }
+// )
+//     } */}
     </>
   );
 }
