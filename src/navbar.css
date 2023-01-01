@@ -1,0 +1,24 @@
+.navbar{
+  position: sticky;
+  top:0%;
+  height: 50px;
+  width: 100%;
+  background: var(--rootwhite);
+  display:flex;
+  z-index: 1;
+  align-items:center;
+}
+.navbar ul{
+  display:flex;
+  list-style:none;
+  font-size:small;
+  justify-content:space-around;
+
+}
+.nav-center {
+  display:flex;
+  align-items: center;
+  width:100%;
+  max-width:1170%;
+  justify-content: space-around;
+}
