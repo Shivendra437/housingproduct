@@ -1,24 +1,23 @@
-.navbar{
+.navbar {
   position: sticky;
-  top:0%;
+  top: 0%;
   height: 50px;
   width: 100%;
   background: var(--rootwhite);
-  display:flex;
+  display: flex;
   z-index: 1;
-  align-items:center;
+  background-color: wheat;
+  /* align-items:center; */
 }
-.navbar ul{
-  display:flex;
-  list-style:none;
-  font-size:small;
-  justify-content:space-around;
-
+.navbar div {
+  display: flex;
+  font-size: small;
+  justify-content: space-around;
 }
 .nav-center {
-  display:flex;
+  display: flex;
   align-items: center;
-  width:100%;
-  max-width:1170%;
+  width: 100%;
+  max-width: 1170%;
   justify-content: space-around;
 }

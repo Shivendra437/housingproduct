@@ -5,11 +5,11 @@ export default function Navbar() {
     <>
       <nav className="navbar">
         <div className="nav-center">
-          <ul>
-            <li>Home</li>
-            <li>Shop</li>
-            <li>Magazine</li>
-          </ul>
+          <div>
+            <div>Home</div>
+            <div>Shop</div>
+            <div>Magazine</div>
+          </div>
           <div className="Searchbar">
             <input type="text" />
             <input type="submit" className="btn" />

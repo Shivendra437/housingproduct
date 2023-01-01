@@ -5,7 +5,7 @@ export default function Product() {
   let iteams = [
     {
       id: 1,
-      title: "queen panel bed",
+      name: "queen panel bed",
       type: "Household",
       price: 2500,
       rating: 4,
