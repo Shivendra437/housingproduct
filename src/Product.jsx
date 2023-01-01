@@ -4,6 +4,7 @@ import Room from "./Room";
 export default function Product() {
   let iteams = [
     {
+      id: 1,
       title: "queen panel bed",
       type: "Household",
       price: 2500,
@@ -12,6 +13,7 @@ export default function Product() {
     },
 
     {
+      id: 2,
       name: "king panel bed",
       type: "Household",
       price: 3000,
@@ -19,6 +21,7 @@ export default function Product() {
       image: "./images/product-2.jpeg"
     },
     {
+      id: 3,
       name: "single panel bed",
       type: "Household",
       price: 2200,
@@ -26,6 +29,7 @@ export default function Product() {
       image: "./images/product-3.jpeg"
     },
     {
+      id: 4,
       name: "twin panel bed",
       type: "Household",
       price: 2800,
@@ -33,6 +37,7 @@ export default function Product() {
       image: "./images/product-4.jpeg"
     },
     {
+      id: 5,
       name: "fridge",
       type: "Kitchen",
       price: 1880,
@@ -40,6 +45,7 @@ export default function Product() {
       image: "./images/product-5.jpeg"
     },
     {
+      id: 6,
       name: "dresser",
       type: "furniture",
       price: 3200,
@@ -47,6 +53,7 @@ export default function Product() {
       image: "./images/product-6.jpeg"
     },
     {
+      id: 7,
       name: "Coombes",
       type: "Lounge",
       price: 4500,
@@ -54,6 +61,7 @@ export default function Product() {
       image: "./images/product-7.jpeg"
     },
     {
+      id: 8,
       name: "Keeve Set",
       type: "Tables & Chairs",
       price: 1300,
@@ -64,11 +72,18 @@ export default function Product() {
 
   return (
     <>
-      {/* iteams.map((el)=>{ */}
-      {/* //   return <Room names={el.name} type={el.type} price={el.price} rating={el.rating}image={el.image}/> */}
-      {/* // }
-// )
-//     } */}
+      {iteams.map((el) => {
+        return (
+          <Room
+            key={el.id}
+            names={el.name}
+            type={el.type}
+            price={el.price}
+            rating={el.rating}
+            image={el.image}
+          />
+        );
+      })}
     </>
   );
 }
