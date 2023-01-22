@@ -1,5 +1,4 @@
 import React from "react";
-import room from "./room.css";
 export default function Room(props) {
   return (
     <div className="roomsline">

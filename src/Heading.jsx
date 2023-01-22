@@ -1,5 +1,5 @@
 import React from "react";
-import heading from"./heading.css"
+import "./heading.css"
 export default function Heading(props) {
   return (
     <div className="heading">
