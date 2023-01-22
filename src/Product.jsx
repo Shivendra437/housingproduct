@@ -1,6 +1,6 @@
 import React from "react";
 import Room from "./Room";
-
+import { Grid } from "@mui/material";
 export default function Product() {
   let iteams = [
     {
@@ -71,7 +71,8 @@ export default function Product() {
   ];
 
   return (
-    <>
+    <Grid container>
+      {/* <Grid item > */}
       {iteams.map((el) => {
         return (
           <Room
@@ -84,6 +85,7 @@ export default function Product() {
           />
         );
       })}
-    </>
+      {/* </Grid > */}
+    </Grid>
   );
 }
